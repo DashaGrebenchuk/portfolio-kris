@@ -1,0 +1,12 @@
+:root {
+  --background-color: #f3f1f4;
+  --main-color: #1d1d1d;
+  --inverse-color: #b8b8b8;
+  --menu-color: #8b8b8b;
+  --accent-color: #a54cff;
+  --header-font-family: "Days One", sans-serif;
+  --regular-font-family: "Kufam", sans-serif;
+}
+body {
+  background-color: var(--background-color);
+}
