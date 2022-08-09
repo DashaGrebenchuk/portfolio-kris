@@ -10,3 +10,22 @@
 body {
   background-color: var(--background-color);
 }
+nav {
+  font-family: var(--regular-font-family);
+  font-size: 24px;
+  color: var(--menu-color);
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+nav ul {
+  padding: 68px 0 42px;
+  margin: 0;
+}
+.logo {
+  margin: 60px 0 47px 67px;
+}
+.nav-bar {
+  border: 1px solid var(--menu-color);
+}
