@@ -36,25 +36,59 @@
   <body>
     <nav>
       <div class="row">
-        <div class="col-3 nav-bar">
-          <img src="/svg/logo.svg" alt="kris-logo" class="img-fluid logo" />
+        <div class="col-3 border-nav">
+          <a href="/">
+            <img src="/svg/logo.svg" alt="kris-logo" class="logo"
+          /></a>
         </div>
-        <div class="col-5 nav-bar">
+        <div class="col-5 border-nav">
           <ul class="d-flex justify-content-evenly">
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>WORK</li>
+            <li class="active"><a href="/">HOME</a></li>
+            <li><a href="/about.html">ABOUT</a></li>
+            <li><a href="/work.html">WORK</a></li>
           </ul>
         </div>
-        <div class="col-4 nav-bar">
-          <ul class="d-flex justify-content-evenly">
-            <li>GET IN TOUCH</li>
-            <li><i class="fa-brands fa-instagram"></i></li>
-            <li><i class="fa-brands fa-behance"></i></li>
-            <li><i class="fa-brands fa-linkedin-in"></i></li>
+        <div class="col-4 border-nav">
+          <ul class="d-flex justify-content-between">
+            <a href="/contact.html">
+              <li class="nav-contact">GET IN TOUCH</li></a
+            >
+            <li>
+              <a
+                href="https://www.instagram.com/krisbond_in_motion"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram icon-link"></i></a
+              ><a href="https://www.behance.net/kris_bond" target="_blank"
+                ><i class="fa-brands fa-behance icon-link"></i></a
+              ><a
+                href="https://www.linkedin.com/in/kristina-nazarevska"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in icon-link"></i
+              ></a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+    <div class="full-screen">
+      <div class="row">
+        <div class="col-8 border-nav">
+          <img src="/svg/logo.svg" alt="kris-logo" />
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col border-nav">
+              <h1>GRAPHIC DESIGN</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col border-nav">
+              <p>MOTION DESIGN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
