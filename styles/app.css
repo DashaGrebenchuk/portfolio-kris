@@ -14,6 +14,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 nav {
   font-family: var(--regular-font-family);
   font-size: 16px;
@@ -45,25 +46,71 @@ nav a {
 nav a:hover {
   color: var(--accent-color);
 }
+.reverse-menu:hover {
+  background-color: var(--main-color);
+  color: var(--menu-color);
+}
 nav li.active a {
   color: var(--main-color);
   font-weight: bold;
+}
+.work-links {
+  text-decoration: none;
+  color: var(--main-color);
 }
 h1,
 p {
   text-align: center;
   font-family: var(--header-font-family);
-  font-size: 42px;
-  letter-spacing: 0.1em;
-  line-height: 55px;
-  margin: 90px 105px;
+  font-size: 38px;
+  letter-spacing: 0.05em;
+  line-height: 50px;
+  padding: 112px 70px;
+  margin: 0;
+}
+svg {
+  display: block;
+  margin: -20px auto;
+  visibility: hidden;
+  transition: all 350ms ease-in-out;
 }
 
 .logo {
+  position: relative;
   max-height: 30px;
-  margin: 36px auto 36px 40px;
+  margin: 36px 50px 36px 40px;
 }
+
 .border-nav {
   border-bottom: 1px solid var(--menu-color);
   border-right: 1px solid var(--menu-color);
+  padding-left: 0;
+}
+
+.video-main {
+  max-height: 590px;
+}
+.motion-link,
+.reverse-menu {
+  transition: all 450ms ease-in-out;
+}
+.motion-link:hover {
+  background-color: var(--main-color);
+  color: var(--background-color);
+  cursor: pointer;
+  font-size: 48px;
+  font-size-adjust: 35px;
+  padding: 104px 70px;
+}
+.motion-link:hover svg {
+  margin: 10px auto;
+  visibility: visible;
+}
+
+.wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 }
