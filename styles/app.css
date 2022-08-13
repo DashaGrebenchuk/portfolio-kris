@@ -79,7 +79,7 @@ p {
 .header h1 {
   font-size: 65px;
   color: var(--background-color);
-  padding: 230px 0;
+  padding: 228px 0;
   line-height: 80px;
 }
 .logo {
@@ -117,6 +117,10 @@ p {
   font-size: 42px;
   font-size-adjust: 35px;
 }
+.row {
+  margin: 0;
+  padding: 0;
+}
 
 .wrapper {
   position: fixed;
@@ -126,6 +130,5 @@ p {
   top: 0;
 }
 .wrapper-sub {
-  width: 100%;
   background-color: var(--main-color);
 }
