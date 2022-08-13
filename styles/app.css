@@ -31,9 +31,7 @@ nav li {
   list-style: none;
   line-height: 30px;
 }
-.nav-contact {
-  padding-left: 70px;
-}
+
 li .icon-link {
   font-size: 26px;
   padding-right: 34px;
@@ -52,19 +50,22 @@ nav a:hover {
 .reverse-menu:hover .logo {
   content: url("/svg/LOGO_white.gif");
 }
-
+.nav-contact {
+  padding-left: 70px;
+}
 .active a {
   color: var(--main-color);
   font-weight: bold;
 }
-.reverse-menu:hover .active a {
+.active-sub {
   color: var(--background-color);
+  font-weight: bold;
+}
+.contact-section {
+  background-image: url(/svg/circle&noise.png);
+  background-position: cover;
 }
 
-.work-links {
-  text-decoration: none;
-  color: var(--main-color);
-}
 h1,
 p {
   text-align: center;
@@ -75,7 +76,12 @@ p {
   padding: 104px 70px;
   margin: 0;
 }
-
+.header h1 {
+  font-size: 65px;
+  color: var(--background-color);
+  padding: 230px 0;
+  line-height: 80px;
+}
 .logo {
   position: relative;
   max-height: 30px;
@@ -87,8 +93,16 @@ p {
   border-bottom: 1px solid var(--menu-color);
   border-right: 1px solid var(--menu-color);
   padding-left: 0;
+  padding-right: 0;
+}
+.reverse-menu:hover .active a {
+  color: var(--background-color);
 }
 
+.work-links {
+  text-decoration: none;
+  color: var(--main-color);
+}
 .video-main {
   max-height: 590px;
 }
@@ -110,4 +124,8 @@ p {
   height: 100%;
   left: 0;
   top: 0;
+}
+.wrapper-sub {
+  width: 100%;
+  background-color: var(--main-color);
 }
