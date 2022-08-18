@@ -1,0 +1,21 @@
+.row-section {
+  height: 464px;
+}
+.photo-section,
+.tools-section,
+.header-content,
+.description-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+.photo-section {
+  border-right: 1px solid var(--menu-color);
+}
+.photo-section img {
+  height: 463px;
+}
+.tools-section {
+  height: 152px;
+  border-top: 1px solid var(--menu-color);
+  border-bottom: 1px solid var(--menu-color);
+}
