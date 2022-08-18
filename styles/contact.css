@@ -28,14 +28,14 @@ a.secondary-info {
 }
 section.contact-links {
   margin-left: 170px;
-  margin-top: 82.5px;
-  margin-bottom: 82.5px;
+  margin-top: 92.5px;
+  margin-bottom: 92.5px;
 }
 h2.main-section-header {
   color: var(--background-color);
   font-weight: 600;
   font-size: 30px;
-
+  line-height: 1;
   text-transform: uppercase;
   text-align: left;
   margin-bottom: 30px;
@@ -60,9 +60,11 @@ p.socialmedia-links {
   margin-top: 30px;
   text-decoration: none;
 }
+
 .socialmedia-links a {
   text-decoration: none;
   color: var(--inverse-color);
+  transition: all 400ms ease-in-out;
 }
 .socialmedia-links a:hover {
   color: var(--accent-color);
@@ -77,6 +79,11 @@ a.secondary-info {
   text-decoration: none;
   position: relative;
   left: -34px;
+  transition: all 400ms ease-in-out;
+}
+a.secondary-info:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 hr {
   color: var(--inverse-color);

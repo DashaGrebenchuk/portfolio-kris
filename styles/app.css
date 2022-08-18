@@ -145,6 +145,7 @@ p.footer-info__additional {
   font-size: 26px;
   padding-right: 34px;
   margin: 39px auto;
+  transition: all 400ms ease-in-out;
 }
 .footer-icon:hover {
   color: var(--accent-color);
