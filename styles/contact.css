@@ -1,0 +1,85 @@
+:root {
+  --background-color: #f3f1f4;
+  --main-color: #1d1d1d;
+  --inverse-color: #b8b8b8;
+  --menu-color: #8b8b8b;
+  --accent-color: #a54cff;
+  --header-font-family: "Days One", sans-serif;
+  --regular-font-family: "Kufam", sans-serif;
+}
+div.hero {
+  height: calc(100vh-103px);
+}
+.header h1 {
+  font-size: 65px;
+  color: var(--background-color);
+  padding: 228px 0;
+  line-height: 80px;
+}
+.contact-section {
+  background-image: url(/svg/circle&noise.png);
+  background-position: cover;
+}
+h2.main-section-header,
+p.socialmedia-links,
+a.secondary-info {
+  font-family: var(--regular-font-family);
+  letter-spacing: 2px;
+}
+section.contact-links {
+  margin-left: 170px;
+  margin-top: 82.5px;
+  margin-bottom: 82.5px;
+}
+h2.main-section-header {
+  color: var(--background-color);
+  font-weight: 600;
+  font-size: 30px;
+
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 30px;
+  padding: 0;
+}
+h2.main-section-header__secondary {
+  margin-top: 60px;
+  margin-bottom: 0;
+  margin-right: 438px;
+  line-height: 1.25;
+}
+img.arrow-side-contact {
+  position: relative;
+  left: -50px;
+}
+p.socialmedia-links {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+.socialmedia-links a {
+  text-decoration: none;
+  color: var(--inverse-color);
+}
+.socialmedia-links a:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+p.socialmedia-links:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+a.secondary-info {
+  color: var(--inverse-color);
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+  left: -34px;
+}
+hr {
+  color: var(--inverse-color);
+  size: 2px;
+  width: 470px;
+}
