@@ -31,7 +31,8 @@
   font-weight: 400;
   letter-spacing: 2px;
   font-size: 11px;
-  margin: 80px 70px auto 15px;
+  margin: 65px 70px auto 15px;
+  line-height: 1.7;
 }
 .photo-section,
 .tools-section,
