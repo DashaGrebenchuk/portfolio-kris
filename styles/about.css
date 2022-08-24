@@ -1,5 +1,37 @@
+:root {
+  --background-color: #f3f1f4;
+  --main-color: #1d1d1d;
+  --inverse-color: #b8b8b8;
+  --menu-color: #8b8b8b;
+  --accent-color: #a54cff;
+  --header-font-family: "Days One", sans-serif;
+  --regular-font-family: "Kufam", sans-serif;
+}
+
 .row-section {
   height: 464px;
+}
+.header-content h1 {
+  font-family: var(--header-font-family);
+  color: var(--background-color);
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 58px;
+  margin-right: 118px;
+  line-height: 1.5;
+}
+.header-content__accent {
+  color: var(--accent-color);
+}
+.description-content p {
+  color: var(--inverse-color);
+  font-family: var(--regular-font-family);
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin: 80px 70px auto 15px;
 }
 .photo-section,
 .tools-section,
@@ -18,4 +50,31 @@
   height: 152px;
   border-top: 1px solid var(--menu-color);
   border-bottom: 1px solid var(--menu-color);
+  letter-spacing: 2px;
+  display: flex;
+}
+.tools-section p {
+  color: var(--background-color);
+  font-family: var(--header-font-family);
+  font-size: 38px;
+  margin-left: 50px;
+  margin-right: 172px;
+}
+.tools-section__accent {
+  font-family: var(--regular-font-family);
+  font-size: 13px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+.tools-section img {
+  width: 51px;
+  height: 50px;
+  margin-top: 55px;
+  margin-right: 152px;
+}
+.tools-section img:nth-last-of-type(1) {
+  margin-right: 0;
+}
+.tools-images {
+  display: flex;
 }
