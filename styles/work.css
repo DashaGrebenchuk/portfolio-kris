@@ -32,6 +32,7 @@ body {
 .overlay h1 {
   padding: 116px 121px;
   font-size: 64px;
+  line-height: 1.2;
 }
 .work--video--section_motion video {
   position: relative;
@@ -59,7 +60,6 @@ body {
 }
 .wrapper--graphic img {
   display: block;
-  margin-bottom: 50px;
   width: 496px;
 }
 .img-left {
@@ -70,6 +70,45 @@ body {
 }
 .first-row--img {
   margin-top: 170px;
+}
+.content_img {
+  position: relative;
+  margin-bottom: 40px;
+}
+.content_img div,
+.content_img-left div {
+  position: absolute;
+  bottom: 0;
+  right: 1.5%;
+  text-align: center;
+  background: rgba(55, 55, 55, 0.5);
+  color: white;
+  font-family: var(--regular-font-family);
+  opacity: 0;
+  border-radius: 4px;
+  visibility: hidden;
+  transition: visibility 0s, opacity 600ms ease-in-out;
+}
+
+.content_img:hover,
+.content_img-left:hover {
+  cursor: pointer;
+}
+.content_img:hover div,
+.content_img-left:hover div {
+  width: 495px;
+  height: 406px;
+  padding-top: 370px;
+  visibility: visible;
+  opacity: 0.7;
+}
+
+.content_img-left {
+  position: relative;
+  margin-bottom: 40px;
+}
+.content_img-left div {
+  right: 30.5%;
 }
 .wrapper--motion {
   background-color: var(--main-color);
